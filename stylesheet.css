@@ -1,0 +1,72 @@
+﻿
+/*By Aryan Malik 2017*/
+
+body {
+  background-color: #222;
+}
+
+#Nav h1{
+    font-family: 'Oswald', sans-serif;
+    color:#2ecc71;
+    text-align:left;
+}
+
+#Intro p{
+  font-family: 'Open Sans', sans-serif;
+  color: #ecf0f1;
+}
+
+#Nav img {
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: 44px;
+  left: 200px;
+}
+
+#Nav {
+  height:48px;
+  width: 100vw;
+  padding: 5px;
+}
+
+#Intro {
+  padding-top: 30px;
+  padding-left:5px;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  color:#2ecc71;
+  padding-left:5px;
+  padding-top:10px;
+}
+
+#Photo img {
+  display: inline-block;
+  max-width:900px;
+  max-height:400px;
+  width: auto;
+  height: auto;
+  white-space: nowrap;
+}
+
+#Photo h3 {
+  font-family: 'Oswald', sans-serif;
+  color:#2ecc71;
+  position:relative;
+  bottom:20px;
+  left:100px;
+}
+
+.MoreButton {
+  padding: 0.4em 0.7em;
+  background-color: whitesmoke;
+  width: 4em;
+  color: #c0392b;
+  font-family: 'Oswald', sans-serif;
+  position:relative;
+  bottom:20px;
+  left: 100px;
+  
+}
