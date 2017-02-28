@@ -1,6 +1,6 @@
 function main() {
-    $('.Nav').hide();
-    $('.Nav').fadeIn(10000);
+    $('#fade').hide();
+    $('#fade').fadeIn(5000);
 }
 
 $(document).ready(main);

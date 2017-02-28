@@ -15,7 +15,34 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   color: #ecf0f1;
+  padding-left: 10px;
 }
+
+#Projects p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  color: #ecf0f1;
+  padding-left: 15px;
+  padding-right: 10px;
+}
+
+
+#Pathfindr h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  color: #ecf0f1;
+  padding-left: 10px;
+  padding-bottom:5px;
+  padding-top: 5px;
+}
+
+#Pathfindr p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  color: #ecf0f1;
+  padding-left: 30px;
+}
+
 
 #Nav img {
   height: 30px;
