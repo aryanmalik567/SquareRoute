@@ -22,6 +22,9 @@ function main() {
         $('.submenuB').slideToggle();
         $(this).toggleClass('active');
     });
+
+    $("#slider").rgbslide();
+
 }
 
 $(document).ready(main);
