@@ -71,14 +71,6 @@ h2 {
   padding-top:10px;
 }
 
-#Photo img {
-  display: inline-block;
-  max-width:900px;
-  max-height:400px;
-  width: auto;
-  height: auto;
-  white-space: nowrap;
-}
 
 h3 {
   font-family: 'Montserrat', sans-serif;
@@ -88,7 +80,38 @@ h3 {
   left:100px;
 }
 
-.MoreButton {
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  color:#2ecc71;
+  position:relative;
+  padding-bottom: 5px;
+}
+
+.MoreButtonA {
+  padding: 0.4em 0.7em;
+  background-color: whitesmoke;
+  width: 4em;
+  color: #c0392b;
+  font-family: 'Oswald', sans-serif;
+  position:relative;
+  bottom:20px;
+  left: 100px;
+  
+}
+
+.MoreButtonJ {
+  padding: 0.4em 0.7em;
+  background-color: whitesmoke;
+  width: 4em;
+  color: #c0392b;
+  font-family: 'Oswald', sans-serif;
+  position:relative;
+  bottom:20px;
+  left: 100px;
+  
+}
+
+.MoreButtonB {
   padding: 0.4em 0.7em;
   background-color: whitesmoke;
   width: 4em;
@@ -102,4 +125,10 @@ h3 {
 
 .profilePhoto{
     text-align:center;
+}
+
+li {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  color: #ecf0f1;
 }
