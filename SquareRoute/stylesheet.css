@@ -82,7 +82,8 @@ h3 {
 
 h4 {
   font-family: 'Montserrat', sans-serif;
-  color:#2ecc71;
+  font-weight: 300;
+  color: #ecf0f1;
   position:relative;
   padding-bottom: 20px;
 }
@@ -134,4 +135,9 @@ li {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   color: #ecf0f1;
+}
+
+.active {
+    background-color: #c0392b;
+    color: whitesmoke;
 }
