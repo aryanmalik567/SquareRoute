@@ -96,7 +96,7 @@ h4 {
   font-family: 'Oswald', sans-serif;
   position:relative;
   bottom:20px;
-  left: 130px;
+  left: 100px;
   cursor: pointer;
   
 }
@@ -109,7 +109,7 @@ h4 {
   font-family: 'Oswald', sans-serif;
   position:relative;
   bottom:20px;
-  left: 130px;
+  left: 100px;
   cursor: pointer;
   
 }
@@ -122,7 +122,7 @@ h4 {
   font-family: 'Oswald', sans-serif;
   position:relative;
   bottom:20px;
-  left: 130px;
+  left: 100px;
   cursor: pointer;
   
 }
@@ -142,26 +142,30 @@ li {
     color: whitesmoke;
 }
 
-#sl1 {
-    background-image: url(https://trello-attachments.s3.amazonaws.com/58b322367eed2e5909edd4c1/924x520/90f042503acd2c2a67c79de118fdc137/UWP_Login_Screen.jpg.png); 
+#PhotoGallery{
+    padding:10px;
+
 }
 
-#sl2 {
-    background-image: url(https://trello-attachments.s3.amazonaws.com/57e59b42235f3a5da73cd88b/58b322367eed2e5909edd4c1/5d0d21c47cb040e68c2219d36f9a8928/UWP_Routes_for_You_Page.jpg);
+.GalleryItem{
+    margin:10px;
+    display:inline;
 }
 
-#sl3 {
-    background-image: url(https://trello-attachments.s3.amazonaws.com/57e59b42235f3a5da73cd88b/58b322367eed2e5909edd4c1/77a3c084b103f1db940cee96d17d4d3d/UWP_Maps_Page.jpg);
+.GalleryItem h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  color: #ecf0f1;
+  text-align: center;
 }
 
-#sl4 {
-    background-image: url(https://trello-attachments.s3.amazonaws.com/58b322367eed2e5909edd4c1/292x520/4e4a089f1e179d20205e20374365f740/Android_Login_Screen.jpg.png);
+.GalleryImage{
+    height:20vw;
+    width:20vw;
+    transition: width 0.3s, height 0.3s;
 }
 
-#sl5 {
-    background-image: url(https://trello-attachments.s3.amazonaws.com/58b322367eed2e5909edd4c1/600x600/4ce7a77b822e17ebfd79518b07503007/Pathfindr_Logo_Android.jpg.png);
-}
-
-#sl6 {
-    background-image: url(https://trello-attachments.s3.amazonaws.com/58b322367eed2e5909edd4c1/310x150/2c2fa8d262064ea2b9cd5d2cc9d49225/Pathfindr_Wide_3-01.png);
+.ViewingGalleryImage{
+    width:100vw;
+    height:100vh;
 }

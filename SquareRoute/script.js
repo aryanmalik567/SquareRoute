@@ -23,7 +23,11 @@ function main() {
         $(this).toggleClass('active');
     });
 
-    $("#slider").rgbslide();
+    $(".GalleryImage").click(function () {
+        $(this).toggleClass("ViewingGalleryImage");
+    });
+
+    
 
 }
 
