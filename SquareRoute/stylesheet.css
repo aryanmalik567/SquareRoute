@@ -169,3 +169,17 @@ li {
     width:100vw;
     height:100vh;
 }
+
+.parallax { 
+    /* The image used */
+    background-image: url("https://trello-attachments.s3.amazonaws.com/57e59b42235f3a5da73cd88b/58b322367eed2e5909edd4c1/eaf37c6c33ef7b854487604e984368a1/Code_image.PNG");
+
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
