@@ -1,6 +1,6 @@
 function main() {
     $('#fade').hide();
-    $('#fade').fadeIn(3000);
+    $('#fade').fadeIn(2000);
 
     $('.submenuA').hide();
     $('.MoreButtonA').click(function () {
@@ -23,9 +23,7 @@ function main() {
         $(this).toggleClass('active');
     });
 
-    $(".GalleryImage").click(function () {
-        $(this).toggleClass("ViewingGalleryImage");
-    });
+    $("#PhotoGallery").rgbslide();
 
     
 
