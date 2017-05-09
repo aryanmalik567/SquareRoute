@@ -246,10 +246,18 @@ p {
 }
 
 .container {
-    padding-left:150px;
-    padding-right:150px;
+    padding-left:50px;
+    padding-right:50px;
 }
 
 #SugarSnap p {
     font-size:15px;
+}
+
+.MoreButtonJ {
+    text-align:left;
+}
+
+.space {
+    padding-top:15px;
 }
