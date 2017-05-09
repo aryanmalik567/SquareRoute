@@ -36,15 +36,18 @@
 <!--#######################################################################################!-->
 <body id="fade">
 
-    <nav class="navbar navbar-inverted">
+    <nav class="navbar navbar-inverted" style="position:fixed;z-index:100;background-color:#222;width:100vw;
+  margin-top:-60px;">
         <div class="container-fluid">
             <div class="navbar-header">
                 <a class="navbar-brand" href="#">
                     <img alt="Brand" src="Img/SquareRouteLogoTransparent-01[1].png">
                 </a>
                 <h1 class="navbar-text" style="font-family: 'Montserrat', sans-serif; color:#2ecc71;">SQUAREROUTE</h1>
-                <button type="button" class="btn btn-default navbar-btn">Sign in</button>
             </div>
+            <button class="navBtn">SugarSnap</button>
+            <button class="navBtn">PathFindr</button>
+            <button class="navBtn">Meet Our Team</button>
         </div>
     </nav>
     
@@ -54,7 +57,7 @@
     </div>
 
 
-    <h2>Meet Our Team :</h2>
+    <h2 class="inline">Meet Our Team :</h2>
     <div class="row">
         <div class="col-md-4 profilePhoto">
             <img src="https://trello-attachments.s3.amazonaws.com/58b322367eed2e5909edd4c1/354x472/dac7ea041d32634174454fcfcfa779b0/Joshua_Yarrow-01.jpg.png" />
@@ -93,7 +96,7 @@
     <div class="parallax"></div>
 
     <div id="Projects">
-        <h2>Our Projects</h2>
+        <h2 class="inline">Our Projects</h2>
         <p>
             We have two app projects that we are working on simultaneously.
             The first one, named PathFindr, will be submitted as a Technical Entry and is already being hand-coded by our in-house developer.
@@ -102,7 +105,7 @@
     </div>
 
     <div id="Pathfindr">
-        <h2>PathFindr</h2>
+        <h2 class="inline">PathFindr</h2>
         <h5>Target market:</h5>
         <p>-	Between ages 13 and 60</p>
         <p>-	Interested in passive exercise</p>
@@ -119,7 +122,7 @@
 
     </div>
 
-    <h2>Screenshots and Developments</h2>
+    <h2 class="inline">Screenshots and Developments</h2>
       <div id="PhotoGallery">
           <div><h1>UWP Login Screen</h1></div>
           <div><h1>UWP Routes for You Page</h1></div>
