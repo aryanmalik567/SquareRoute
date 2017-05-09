@@ -94,6 +94,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Img\bicycle.jpg" />
+    <Content Include="Img\bioarchitecture for website.jpg" />
     <Content Include="Img\SquareRouteLogoTransparent-01[1].png" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">

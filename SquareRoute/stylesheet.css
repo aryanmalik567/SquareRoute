@@ -60,8 +60,7 @@ body {
 }
 
 #Intro {
-  margin-top:60px;
-  padding-top: 30px;
+  padding-top:100px;
   padding-left:5px;
 }
 
@@ -147,7 +146,7 @@ p {
 
 .parallax { 
     /* The image used */
-    background-image: url("https://trello-attachments.s3.amazonaws.com/57e59b42235f3a5da73cd88b/58b322367eed2e5909edd4c1/eaf37c6c33ef7b854487604e984368a1/Code_image.PNG");
+    background-image: url("Img/bicycle.jpg");
     /* Set a specific height */
     height: 500px; 
 
@@ -217,5 +216,40 @@ p {
 }
 
 .inline {
-    padding-left:15px;
+    padding-left:5px;
+}
+
+.jumbotron {
+    position: relative;
+    top: 100px;
+    padding-bottom: 500px;
+    background-size: cover;
+    background-image: url('Img/bioarchitecture for website.jpg');
+}
+
+.jumbotron h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color:#e67e22;
+    position:relative;
+    top:210px;
+}
+
+.jumbotron h2 {
+    position:relative;
+    top:210px;
+    left:0px;
+    text-align:center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #ecf0f1;
+}
+
+.container {
+    padding-left:150px;
+    padding-right:150px;
+}
+
+#SugarSnap p {
+    font-size:15px;
 }
