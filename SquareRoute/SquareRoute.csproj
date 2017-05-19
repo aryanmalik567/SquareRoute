@@ -97,6 +97,8 @@
     <Content Include="Img\bicycle.jpg" />
     <Content Include="Img\bioarchitecture for website.jpg" />
     <Content Include="Img\SquareRouteLogoTransparent-01[1].png" />
+    <Content Include="jquery.bsPhotoGallery.css" />
+    <Content Include="jquery.bsPhotoGallery.js" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

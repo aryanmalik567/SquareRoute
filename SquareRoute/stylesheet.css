@@ -181,7 +181,7 @@ p {
 #sl5 {
     background: url('https://trello-attachments.s3.amazonaws.com/58b322367eed2e5909edd4c1/600x600/4ce7a77b822e17ebfd79518b07503007/Pathfindr_Logo_Android.jpg.png') center center no-repeat #222;
     background-size:contain;
-}
+} 
 
 
 .sliderBox{
@@ -230,7 +230,7 @@ p {
 .jumbotron h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    color:#e67e22;
+    color:#FFC966;
     position:relative;
     top:210px;
 }
@@ -260,4 +260,15 @@ p {
 
 .space {
     padding-top:15px;
+}
+
+#videos {
+    padding-top:10px;
+    text-align:center;
+}
+
+#movie-area {
+	width: 320px;
+	height: 240px;
+	background: black;
 }

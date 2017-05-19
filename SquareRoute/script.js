@@ -25,8 +25,9 @@ function main() {
 
     $("#PhotoGallery").rgbslide();
 
-    
-}
+
+
+};
 
 $(document).ready(main);
 
