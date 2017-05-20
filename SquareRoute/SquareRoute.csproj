@@ -96,6 +96,9 @@
   <ItemGroup>
     <Content Include="Img\bicycle.jpg" />
     <Content Include="Img\bioarchitecture for website.jpg" />
+    <Content Include="Img\PathFindr Video Demo.jpg" />
+    <Content Include="Img\PathFindr Video Overview.jpg" />
+    <Content Include="Img\Scroll Down.png" />
     <Content Include="Img\SquareRouteLogoTransparent-01[1].png" />
     <Content Include="jquery.bsPhotoGallery.css" />
     <Content Include="jquery.bsPhotoGallery.js" />

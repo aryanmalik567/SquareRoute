@@ -46,9 +46,10 @@
                 </a>
                 <h1 class="navbar-text" style="font-family: 'Montserrat', sans-serif; color:#2ecc71;">SQUAREROUTE</h1>
             </div>
-            <button class="navBtn">SugarSnap</button>
-            <button class="navBtn">PathFindr</button>
-            <button class="navBtn">Meet Our Team</button>
+            <button class="navBtn">About</button>
+            <button class="navBtn" id="sugarsnap">SugarSnap</button>
+            <button class="navBtn" id="pathfindr">PathFindr</button>
+            <button class="navBtn" id="meetteam">Meet Our Team</button>
         </div>
     </nav>
 
@@ -61,7 +62,7 @@
         </div>
     </header>
 
-    <div id="Intro">
+    <div id="Intro" class="MeetOurTeam">
         <p>Hello! We’re SquareRoute.</p>
         <p>We are passionate about providing both the most powerful and most elegant software we can. Exactly how you asked for it!</p>
     </div>
@@ -103,9 +104,13 @@
         </div>
     </div>
 
+    <div id="scrolldown">
+        <p style="text-align:center"><img src="Img/Scroll Down.png" /></p>
+    </div>
+
     <div class="parallax"></div>
 
-    <div id="Projects">
+    <div id="Projects" class="PathFindr">
         <h2 class="inline">Our Projects</h2>
         <p>
             We have two app projects that we are working on simultaneously.
@@ -141,9 +146,14 @@
           <div><h1>PathFindr Logo Android</h1></div>
       </div> 
 
-    <h2 class="inline">Videos!</h2>
-    <div class="youtube-player" data-id="OWlG0uqn4qE" data-related="0" data-control="0" data-info="0" data-fullscreen="0" style="width:100%;display: block; position: relative;cursor: pointer;max-height:1080px;height:100%; overflow:hidden;padding-bottom:56.25%;margin:0 auto"> <img src="//i.ytimg.com/vi/OWlG0uqn4qE/hqdefault.jpg" style="bottom: -100%; display: block; left: 0; margin: auto; max-width: 100%; width: 100%;height:auto; position: absolute; right: 0; top: -100%;"> <div style="height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -36px; margin-top: -36px; position: absolute; background: url('http://i.imgur.com/TxzC70f.png') no-repeat;"></div> </div>
-    <script> (function() { var v = document.getElementsByClassName("youtube-player"); for (var n = 0; n < v.length; n++) { v[n].onclick = function () { var iframe = document.createElement("iframe"); iframe.setAttribute("src", "//www.youtube.com/embed/" + this.dataset.id + "?autoplay=1&autohide=2&border=0&wmode=opaque&enablejsapi=1&rel="+ this.dataset.related +"&controls="+this.dataset.control+"&showinfo=" + this.dataset.info); iframe.setAttribute("frameborder", "0"); iframe.setAttribute("id", "youtube-iframe"); iframe.setAttribute("style", "width: 100%; height: 100%; position: absolute; top: 0; left: 0;"); if (this.dataset.fullscreen == 1){ iframe.setAttribute("allowfullscreen", ""); } while (this.firstChild) { this.removeChild(this.firstChild); } this.appendChild(iframe); }; } })(); </script>
+    
+   
+    <h2 class="inline">Videos for PathFindr</h2>
+    <div id="links" class="SugarSnap">
+        <a href="https://www.youtube.com/watch?v=OWlG0uqn4qE"><img src="Img/PathFindr Video Overview.jpg" /></a>
+        <a href="https://www.youtube.com/watch?v=XQlatXfqx3I"><img src="Img/PathFindr Video Demo.jpg" /></a>
+    </div>
+
 
     <div id="SugarSnap">
         <h2 class="inline">SugarSnap</h2>
@@ -163,6 +173,8 @@
 
         </div>
     </div>
+
+    <h2 class="inline">Screenshots and Developments</h2>
 
     
 </body>

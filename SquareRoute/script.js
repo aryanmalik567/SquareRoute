@@ -2,6 +2,29 @@ function main() {
     $('#fade').hide();
     $('#fade').fadeIn(2000);
 
+    $.fn.scrollView = function () {
+        return this.each(function () {
+            $('html, body').animate({
+                scrollTop: $(this).offset().top
+            }, 1000);
+        });
+    }
+
+    $('#meetteam').click(function (event) {
+        event.preventDefault();
+        $('.MeetOurTeam').scrollView();
+    });
+
+    $('#pathfindr').click(function (event) {
+        event.preventDefault();
+        $('.PathFindr').scrollView();
+    });
+
+    $('#sugarsnap').click(function (event) {
+        event.preventDefault();
+        $('.SugarSnap').scrollView();
+    });
+
     $('.submenuA').hide();
     $('.MoreButtonA').click(function () {
         $('.MoreButtonA').show();
