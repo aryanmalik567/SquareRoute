@@ -98,8 +98,16 @@
     <Content Include="Img\bioarchitecture for website.jpg" />
     <Content Include="Img\PathFindr Video Demo.jpg" />
     <Content Include="Img\PathFindr Video Overview.jpg" />
+    <Content Include="Img\deleteallergen.png" />
+    <Content Include="Img\SugarSnap Demo.jpg" />
+    <Content Include="Img\SugarSnap Overview.jpg" />
+    <Content Include="Img\welcometosugarsnap.png" />
     <Content Include="Img\Scroll Down.png" />
     <Content Include="Img\SquareRouteLogoTransparent-01[1].png" />
+    <Content Include="Img\uwpallergen.png" />
+    <Content Include="Img\sugarspoon.png" />
+    <Content Include="Img\containscocoa.png" />
+    <Content Include="Img\scan.png" />
     <Content Include="jquery.bsPhotoGallery.css" />
     <Content Include="jquery.bsPhotoGallery.js" />
     <Content Include="packages.config" />

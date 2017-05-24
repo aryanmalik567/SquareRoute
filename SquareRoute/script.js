@@ -25,6 +25,16 @@ function main() {
         $('.SugarSnap').scrollView();
     });
 
+    $('#contact').click(function (event) {
+        event.preventDefault();
+        $('.contactDetails').scrollView();
+    });
+
+    $('#scroll').click(function (event) {
+        event.preventDefault();
+        $('.PathFindr').scrollView();
+    });
+
     $('.submenuA').hide();
     $('.MoreButtonA').click(function () {
         $('.MoreButtonA').show();
