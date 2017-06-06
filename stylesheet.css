@@ -1,0 +1,303 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Montserrat:300,500');
+/*By Aryan Malik 2017*/
+
+body {
+  background-color: #222;
+  overflow-x:hidden;
+}
+
+#Nav h1{
+    font-family: 'Montserrat', sans-serif;
+    color:#2ecc71;
+    text-align:left;
+}
+
+#Intro p{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  color: #ecf0f1;
+  padding-left: 10px;
+}
+
+#Projects p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  color: #ecf0f1;
+  padding-left: 15px;
+  padding-right: 10px;
+}
+
+
+#Pathfindr h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  color: #ecf0f1;
+  padding-left: 10px;
+  padding-bottom:5px;
+  padding-top: 5px;
+}
+
+#Pathfindr p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  color: #ecf0f1;
+  padding-left: 30px;
+}
+
+
+#Nav img {
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: 30px;
+  left: 300px;
+}
+
+#Nav {
+  height:48px;
+  width: 100vw;
+  padding: 5px;
+}
+
+#Intro {
+  padding-top:100px;
+  padding-left:5px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color:#2ecc71;
+  font-weight:400;
+  padding-left:5px;
+  padding-top:10px;
+}
+
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color:#2ecc71;
+  position:relative;
+  bottom:20px;
+  padding-top:10px;
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  color: #ecf0f1;
+  position:relative;
+  bottom:20px;
+  padding-bottom:5px;
+}
+
+.MoreButtonA {
+  padding: 0.4em 0.7em;
+  background-color: whitesmoke;
+  width: 4em;
+  color: #c0392b;
+  font-family: 'Oswald', sans-serif;
+  position:relative;
+  bottom:20px;
+  margin-left: calc(50% - 2em);
+  cursor: pointer;
+  
+}
+
+.MoreButtonJ {
+  padding: 0.4em 0.7em;
+  background-color: whitesmoke;
+  width: 4em;
+  color: #c0392b;
+  font-family: 'Oswald', sans-serif;
+  position:relative;
+  bottom:20px;
+  margin-left: calc(50% - 2em);
+  cursor: pointer;
+  
+}
+
+.MoreButtonB {
+  padding: 0.4em 0.7em;
+  background-color: whitesmoke;
+  width: 4em;
+  color: #c0392b;
+  font-family: 'Oswald', sans-serif;
+  position:relative;
+  bottom:20px;
+  margin-left: calc(50% - 2em);
+  cursor: pointer;
+  
+}
+
+.profilePhoto{
+    text-align:center;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  color: #ecf0f1;
+}
+
+.active {
+    background-color: #c0392b;
+    color: whitesmoke;
+}
+
+
+.parallax { 
+    /* The image used */
+    background-image: url("Img/bicycle.jpg");
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#sl1 {
+    background: url('https://trello-attachments.s3.amazonaws.com/58b322367eed2e5909edd4c1/924x520/90f042503acd2c2a67c79de118fdc137/UWP_Login_Screen.jpg.png') center center no-repeat #222;
+    background-size:contain;
+}
+
+#sl2 {
+    background: url('https://trello-attachments.s3.amazonaws.com/57e59b42235f3a5da73cd88b/58b322367eed2e5909edd4c1/5d0d21c47cb040e68c2219d36f9a8928/UWP_Routes_for_You_Page.jpg') center center no-repeat #222;
+    background-size:contain;
+}
+
+#sl3 {
+    background: url('https://trello-attachments.s3.amazonaws.com/58b322367eed2e5909edd4c1/292x520/4e4a089f1e179d20205e20374365f740/Android_Login_Screen.jpg.png') center center no-repeat #222;
+    background-size:contain;
+}
+
+#sl4 {
+    background: url('https://trello-attachments.s3.amazonaws.com/57e59b42235f3a5da73cd88b/58b322367eed2e5909edd4c1/77a3c084b103f1db940cee96d17d4d3d/UWP_Maps_Page.jpg') center center no-repeat #222;
+    background-size:contain;
+}
+
+#sl5 {
+    background: url('https://trello-attachments.s3.amazonaws.com/58b322367eed2e5909edd4c1/600x600/4ce7a77b822e17ebfd79518b07503007/Pathfindr_Logo_Android.jpg.png') center center no-repeat #222;
+    background-size:contain;
+} 
+
+
+.sliderBox{
+    background-size:contain;
+}
+
+#PhotoGallery h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #ecf0f1;
+    font-size: 25px;
+    background-color:rgba(0,0,0,0.3);
+    padding:10px;
+    position:relative;
+    top:-20px;
+}
+
+.navBtn{
+    margin:12px;
+    margin-top:20px;
+    background:#222;
+    border:none;
+    color:#eee;
+    font-size:18px;
+    font-family:'Montserrat';
+    font-weight:300;
+    padding-left:6px;
+    padding-right:6px;
+    padding-top:2px;
+    padding-bottom:2px;
+    float:right;
+}
+
+.inline {
+    padding-left:5px;
+}
+
+.jumbotron {
+    position: relative;
+    top: 100px;
+    padding-bottom: 500px;
+    background-size: cover;
+    background-image: url('Img/bioarchitecture for website.jpg');
+}
+
+.jumbotron h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color:#FFC966;
+    position:relative;
+    top:210px;
+}
+
+.jumbotron h2 {
+    position:relative;
+    top:210px;
+    left:0px;
+    text-align:center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #ecf0f1;
+}
+
+.container {
+    padding-left:50px;
+    padding-right:50px;
+}
+
+#SugarSnap p {
+    font-size:15px;
+}
+
+
+.space {
+    padding-top:15px;
+}
+
+#links img {
+    width:30%;
+    padding-left: 5px;
+}
+
+#scrolldown img {
+    padding-top:20px;
+    padding-bottom:20px;
+    width:3%;
+    cursor: pointer;
+}
+   
+
+.photos img {
+    width:15%;
+    margin-left:5px;
+    padding-left:10px;
+    padding-top:10px;
+}
+
+#social img {
+    width:5%;
+}
+
+#social p {
+    padding-left:5px;
+}
+
+#footer {
+    position:relative;
+    top:100px;
+    padding-top:10px;
+    padding-bottom:1px;
+    background-color:#262626;
+}
+
+#footer p {
+    font-size:10px;
+    color:#959595;
+    padding-left:5px;
+}
