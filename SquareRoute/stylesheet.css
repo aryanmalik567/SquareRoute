@@ -78,7 +78,7 @@ h3 {
   color:#2ecc71;
   position:relative;
   bottom:20px;
-  left:100px;
+  padding-top:10px;
 }
 
 h4 {
@@ -86,7 +86,8 @@ h4 {
   font-weight: 300;
   color: #ecf0f1;
   position:relative;
-  padding-bottom: 20px;
+  bottom:20px;
+  padding-bottom:5px;
 }
 
 .MoreButtonA {
@@ -97,7 +98,7 @@ h4 {
   font-family: 'Oswald', sans-serif;
   position:relative;
   bottom:20px;
-  left: 100px;
+  margin-left: calc(50% - 2em);
   cursor: pointer;
   
 }
@@ -110,7 +111,7 @@ h4 {
   font-family: 'Oswald', sans-serif;
   position:relative;
   bottom:20px;
-  left: 100px;
+  margin-left: calc(50% - 2em);
   cursor: pointer;
   
 }
@@ -123,7 +124,7 @@ h4 {
   font-family: 'Oswald', sans-serif;
   position:relative;
   bottom:20px;
-  left: 100px;
+  margin-left: calc(50% - 2em);
   cursor: pointer;
   
 }
@@ -273,7 +274,8 @@ p {
    
 
 .photos img {
-    width:25%;
+    width:15%;
+    margin-left:5px;
     padding-left:10px;
     padding-top:10px;
 }

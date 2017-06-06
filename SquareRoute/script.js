@@ -55,12 +55,13 @@ function main() {
         $('.submenuB').slideToggle();
         $(this).toggleClass('active');
     });
+    
 
     $("#PhotoGallery").rgbslide();
 
 
 
-};
+}
 
 $(document).ready(main);
 
